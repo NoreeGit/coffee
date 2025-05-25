@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fffaf0; /* light cream */
+  color: #2e2e2e; /* dark gray */
+}
+header, footer {
+  background: #654321; /* cafe brown */
+  color: #fffaf0; /* light cream */
+  padding: 1em;
+  text-align: center;
+}
+nav a {
+  margin: 0 1em;
+  color: #c3b091; /* tan-beige */
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+nav a:hover {
+  background-color: #c3b091; /* tan-beige rectangle */
+  color: #654321; /* dark brown text */
+}
+main {
+  padding: 1em;
+}
+.product {
+  margin: 1em 0;
+  padding: 1em;
+  background: #fffaf0; /* light cream */
+  border: 1px solid #c3b091; /* matching accent */
+}
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 0.5em 0;
+  }
+}
